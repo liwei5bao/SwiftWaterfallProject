@@ -1,5 +1,5 @@
 # SwiftWaterfallProject
-仿照MJ写的一个swift瀑布流框架
+仿照MJ写的一个swift瀑布流框架,使用只需要将OOWaterflowLayout.swift拖入项目实现代理,OOWaterflowLayout.swift不需要修改
 # 自定义的UICollectionViewLayout布局,需要实现一个必须实现的代理
 ///返回每个item的高度必须实现
 func waterflowLayout(waterflowLayout waterflowLayout:OOWaterflowLayout,heightForItemAtIndex index:NSInteger,itemWidth width:CGFloat)->CGFloat
