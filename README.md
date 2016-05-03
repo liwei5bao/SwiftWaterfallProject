@@ -13,5 +13,5 @@ optional func columnMarginInWaterflowLayout(waterflowLayout:OOWaterflowLayout) -
 # 自定义的UICollectionViewLayout布局,返回行间距,不实现默认为10
 optional func rowMarginInWaterflowLayout(waterflowLayout:OOWaterflowLayout) -> CGFloat
 
-# 自定义的UICollectionViewLayout布局,返回行间距,不实现默认为(10,10,10,10)
+# 自定义的UICollectionViewLayout布局,返回edgeInsets,不实现默认为(10,10,10,10)
 optional func edgeInsetsInWaterflowLayout(waterflowLayout:OOWaterflowLayout) -> UIEdgeInsets
